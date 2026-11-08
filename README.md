@@ -50,7 +50,7 @@ Unter **Filterlisten → Importieren** die AdGuard-URL von oben eintragen.
 
 ### FRITZ!Box (ab FRITZ!OS 8.50)
 
-Seit FRITZ!OS 8.50 hat die FRITZ!Box einen eigenen DNS-Filter. Domain-Ausnahmen haben dort Vorrang vor den Sperrlisten.
+Seit FRITZ!OS 8.50 hat die FRITZ!Box einen eigenen DNS-Filter. Domain-Ausnahmen haben dort Vorrang vor den Sperrlisten. Den Filter gibt es nicht auf jedem Modell: Die FRITZ!Box 7690 hat ihn als erste bekommen, weitere Modelle folgen nach und nach. Fehlt der Reiter **DNS-Filter**, unterstützt deine FRITZ!Box ihn noch nicht.
 
 1. **Heimnetz → Netzwerk → Netzwerkeinstellungen → Erweiterte Netzwerkeinstellungen ändern → DNS-Filter** öffnen
 2. Unter **Domain-Ausnahmen** auf **Eigene Domain hinzufügen** klicken
