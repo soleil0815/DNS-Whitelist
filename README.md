@@ -17,7 +17,7 @@ Die Liste gibt es in zwei Formaten mit identischem Inhalt:
 | [`whitelist-adguard.txt`](whitelist-adguard.txt) | Adblock-Syntax (`@@\|\|domain^`) | AdGuard Home, uBlock Origin |
 | [`whitelist-technitium.txt`](whitelist-technitium.txt) | Eine Domain pro Zeile | Technitium DNS, Ausnahmen in der FRITZ!Box und andere Filter, die reine Domainlisten erwarten |
 
-Die Einträge sind nach Bereichen gruppiert, zum Beispiel Tracking & Analytics, E-Mail & Kommunikation, Mobile Apps, Online-Shops und Banking.
+Die Einträge sind nach Bereichen gruppiert, zum Beispiel Tracking & Analytics, E-Mail & Kommunikation, Mobile Apps, Online-Shops, Google, Microsoft und Fire TV.
 
 ## Einbinden
 

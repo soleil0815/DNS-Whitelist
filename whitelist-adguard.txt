@@ -83,11 +83,22 @@
 @@||tlu.dl.delivery.mp.microsoft.com^$important
 @@||msedge.api.cdp.microsoft.com^$important
 @@||msftncsi.com^$important
+@@||msftconnecttest.com^$important
 @@||c.s-microsoft.com^$important
 @@||i.s-microsoft.com^$important
 @@||self.events.data.microsoft.com^$important
 @@||vlscppe.microsoft.com^
 @@||h-microsoft.online-metrix.net^
+
+! === Fire TV ===
+@@||fireoscaptiveportal.com^$important
+@@||firetvcaptiveportal.com^$important
+@@||dp-discovery-na-ext.amazon.com^$important
+@@||dcape-na.amazon.com^$important
+@@||api.amazonalexa.com^$important
+
+! === Apple ===
+@@||captive.apple.com^$important
 
 ! === Sonstiges ===
 @@||aax-events-cell02-cf.eu-central.3px.axp.amazon-adsystem.com^$important

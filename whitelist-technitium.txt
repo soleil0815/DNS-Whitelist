@@ -83,11 +83,22 @@ geo-prod.do.dsp.mp.microsoft.com
 tlu.dl.delivery.mp.microsoft.com
 msedge.api.cdp.microsoft.com
 msftncsi.com
+msftconnecttest.com
 c.s-microsoft.com
 i.s-microsoft.com
 self.events.data.microsoft.com
 vlscppe.microsoft.com
 h-microsoft.online-metrix.net
+
+# === Fire TV ===
+fireoscaptiveportal.com
+firetvcaptiveportal.com
+dp-discovery-na-ext.amazon.com
+dcape-na.amazon.com
+api.amazonalexa.com
+
+# === Apple ===
+captive.apple.com
 
 # === Sonstiges ===
 aax-events-cell02-cf.eu-central.3px.axp.amazon-adsystem.com
