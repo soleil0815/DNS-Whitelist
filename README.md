@@ -1,33 +1,35 @@
 # DNS-Whitelist
 
-Eine gepflegte Whitelist für DNS-Filter wie **AdGuard Home** und **Technitium DNS**.
+**English** | [Deutsch](README.de.md)
 
-## Wozu?
+A curated allowlist for DNS filters such as **AdGuard Home** and **Technitium DNS**.
 
-Blocklisten schützen vor Werbung, Tracking und Schadseiten, sperren aber oft mehr als nötig. Dann hängen Links in Newslettern, Shops leiten nicht weiter, Apps melden Fehler oder Banking-Seiten laden nicht richtig.
+## Why?
 
-Diese Liste gibt genau solche Domains wieder frei. So bleibt der Schutz der Blocklisten erhalten, und trotzdem funktionieren Webseiten, Apps und Dienste im Alltag ohne Ärger.
+Blocklists protect against ads, tracking and malicious sites, but they often block more than necessary. Links in newsletters stop working, shops don't redirect, apps show errors, or banking sites don't load properly.
 
-## Dateien
+This list unblocks exactly those domains. You keep the protection of your blocklists, and websites, apps and services still work in everyday use.
 
-Die Liste gibt es in zwei Formaten mit identischem Inhalt:
+## Files
 
-| Datei | Format | Für |
+The list comes in two formats with identical content:
+
+| File | Format | For |
 |---|---|---|
-| [`whitelist-adguard.txt`](whitelist-adguard.txt) | Adblock-Syntax (`@@\|\|domain^`) | AdGuard Home, uBlock Origin |
-| [`whitelist-technitium.txt`](whitelist-technitium.txt) | Eine Domain pro Zeile | Technitium DNS, Ausnahmen in der FRITZ!Box und andere Filter, die reine Domainlisten erwarten |
+| [`whitelist-adguard.txt`](whitelist-adguard.txt) | Adblock syntax (`@@\|\|domain^`) | AdGuard Home, uBlock Origin |
+| [`whitelist-technitium.txt`](whitelist-technitium.txt) | One domain per line | Technitium DNS, FRITZ!Box exceptions and other filters that expect plain domain lists |
 
-Die Einträge sind nach Bereichen gruppiert, zum Beispiel E-Mail & Kommunikation, Online-Shops & Preisvergleich, Werbung & Partnerlinks, Bezahlen & Banking, Google, Microsoft, Fire TV, Smart-TVs, Spielkonsolen und Streaming.
+Entries are grouped by area, for example email & communication, online shops & price comparison, ads & affiliate links, payment & banking, Google, Microsoft, Fire TV, smart TVs, game consoles and streaming. Some entries are specific to Germany.
 
-## Einbinden
+## Setup
 
-Am besten bindest du die Liste per URL ein. Dann holt sich dein DNS-Server Änderungen automatisch.
+The best way is to add the list by URL. Your DNS server then picks up changes automatically.
 
 ### AdGuard Home
 
-1. **Filter → DNS-Zulassungslisten** öffnen
-2. **Zulassungsliste hinzufügen → Benutzerdefinierte Liste hinzufügen** wählen
-3. Diese URL eintragen:
+1. Open **Filters → DNS allowlists**
+2. Choose **Add allowlist → Add a custom list**
+3. Enter this URL:
 
 ```
 https://raw.githubusercontent.com/soleil0815/DNS-Whitelist/main/whitelist-adguard.txt
@@ -35,41 +37,41 @@ https://raw.githubusercontent.com/soleil0815/DNS-Whitelist/main/whitelist-adguar
 
 ### Technitium DNS
 
-1. **Settings → Blocking** öffnen
-2. Unter **Allow List URLs** diese URL eintragen:
+1. Open **Settings → Blocking**
+2. Add this URL under **Allow List URLs**:
 
 ```
 https://raw.githubusercontent.com/soleil0815/DNS-Whitelist/main/whitelist-technitium.txt
 ```
 
-3. Speichern
+3. Save
 
 ### uBlock Origin
 
-Unter **Filterlisten → Importieren** die AdGuard-URL von oben eintragen.
+Under **Filter lists → Import**, enter the AdGuard URL from above.
 
-### FRITZ!Box (ab FRITZ!OS 8.50)
+### FRITZ!Box (FRITZ!OS 8.50 and later)
 
-Seit FRITZ!OS 8.50 hat die FRITZ!Box einen eigenen DNS-Filter. Domain-Ausnahmen haben dort Vorrang vor den Sperrlisten. Den Filter gibt es nicht auf jedem Modell: Die FRITZ!Box 7690 hat ihn als erste bekommen, weitere Modelle folgen nach und nach. Fehlt der Reiter **DNS-Filter**, unterstützt deine FRITZ!Box ihn noch nicht.
+Since FRITZ!OS 8.50, the FRITZ!Box has its own DNS filter. Domain exceptions take priority over the blocklists. Not every model has the filter yet: the FRITZ!Box 7690 got it first, other models follow gradually. If the **DNS Filter** tab is missing, your FRITZ!Box doesn't support it yet.
 
-1. **Heimnetz → Netzwerk → Netzwerkeinstellungen → Erweiterte Netzwerkeinstellungen ändern → DNS-Filter** öffnen
-2. Unter **Domain-Ausnahmen** auf **Eigene Domain hinzufügen** klicken
-3. Die benötigten Domains aus [`whitelist-technitium.txt`](whitelist-technitium.txt) eintragen, jeweils nur den Namen ohne `https://` und ohne Pfad
+1. Open **Home Network → Network → Network Settings → Change advanced network settings → DNS Filter** (German UI: *Heimnetz → Netzwerk → Netzwerkeinstellungen → Erweiterte Netzwerkeinstellungen ändern → DNS-Filter*)
+2. Under **Domain exceptions**, click **Add domain** (*Domain-Ausnahmen → Eigene Domain hinzufügen*)
+3. Enter the domains you need from [`whitelist-technitium.txt`](whitelist-technitium.txt), name only, without `https://` and without a path
 
-Die Ausnahmen werden einzeln eingetragen. Am besten nimmst du nur die Domains, die du wirklich brauchst.
+Exceptions are added one by one, so only add the domains you actually need.
 
-> **Achtung:** Nicht die Liste „Erlaubte Internetseiten“ der Kindersicherung verwenden. Ist sie aktiv, erlaubt die FRITZ!Box **nur** diese Seiten und sperrt alles andere.
+> **Note:** Don't use the parental controls list "Allowed websites" (*Erlaubte Internetseiten*). When it is active, the FRITZ!Box allows **only** those sites and blocks everything else.
 
-## Tipp: Partnerlinks aus Newslettern und Deal-Seiten
+## Tip: affiliate links from newsletters and deal sites
 
-Links aus Newslettern, Preisvergleichen oder Seiten wie mydealz laufen oft über Partnernetzwerke, die Blocklisten sperren. Die wichtigsten deutschen Netzwerke sind hier enthalten. Wer noch mehr davon braucht, kann zusätzlich die gepflegte [Referral-Allowlist von HaGeZi](https://github.com/hagezi/dns-blocklists) einbinden, mit rund 950 solcher Domains:
+Links from newsletters, price comparison sites or deal sites often go through affiliate networks that blocklists block. The most important German networks are included here. If you need more, you can also add the maintained [referral allowlist by HaGeZi](https://github.com/hagezi/dns-blocklists), with around 950 such domains:
 
 ```
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-referral.txt
 ```
 
-Sie gibt allerdings auch viele Tracking-Domains frei. Deshalb ist sie hier nicht fest eingebaut.
+It also unblocks many tracking domains, which is why it isn't built into this list.
 
-## Mitmachen
+## Contributing
 
-Wird eine Seite durch deine Blocklisten fälschlich gesperrt? Öffne gern ein Issue mit der Domain und kurz, wofür sie gebraucht wird. Neue Einträge kommen immer in **beide** Dateien.
+Is a site wrongly blocked by your blocklists? Feel free to open an issue with the domain and a short note on what it is needed for. New entries always go into **both** files.
