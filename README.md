@@ -15,7 +15,7 @@ Die Liste gibt es in zwei Formaten mit identischem Inhalt:
 | Datei | Format | Für |
 |---|---|---|
 | [`whitelist-adguard.txt`](whitelist-adguard.txt) | Adblock-Syntax (`@@\|\|domain^`) | AdGuard Home, uBlock Origin |
-| [`whitelist-technitium.txt`](whitelist-technitium.txt) | Eine Domain pro Zeile | Technitium DNS und andere Filter, die reine Domainlisten erwarten |
+| [`whitelist-technitium.txt`](whitelist-technitium.txt) | Eine Domain pro Zeile | Technitium DNS, Ausnahmen in der FRITZ!Box und andere Filter, die reine Domainlisten erwarten |
 
 Die Einträge sind nach Bereichen gruppiert, zum Beispiel Tracking & Analytics, E-Mail & Kommunikation, Mobile Apps, Online-Shops und Banking.
 
@@ -48,9 +48,17 @@ https://raw.githubusercontent.com/soleil0815/DNS-Whitelist/main/whitelist-techni
 
 Unter **Filterlisten → Importieren** die AdGuard-URL von oben eintragen.
 
-## Hinweis zur FRITZ!Box
+### FRITZ!Box (ab FRITZ!OS 8.50)
 
-Die Kindersicherung der FRITZ!Box kennt zwar eine Liste „erlaubte Internetseiten“. Ist sie aktiv, erlaubt die FRITZ!Box aber **nur** diese Seiten und sperrt alles andere. Außerdem passen höchstens 500 Einträge hinein. Für den Zweck dieser Liste ist die FRITZ!Box deshalb nicht geeignet.
+Seit FRITZ!OS 8.50 hat die FRITZ!Box einen eigenen DNS-Filter. Domain-Ausnahmen haben dort Vorrang vor den Sperrlisten.
+
+1. **Heimnetz → Netzwerk → Netzwerkeinstellungen → Erweiterte Netzwerkeinstellungen ändern → DNS-Filter** öffnen
+2. Unter **Domain-Ausnahmen** auf **Eigene Domain hinzufügen** klicken
+3. Die benötigten Domains aus [`whitelist-technitium.txt`](whitelist-technitium.txt) eintragen, jeweils nur den Namen ohne `https://` und ohne Pfad
+
+Die Ausnahmen werden einzeln eingetragen. Am besten nimmst du nur die Domains, die du wirklich brauchst.
+
+> **Achtung:** Nicht die Liste „Erlaubte Internetseiten“ der Kindersicherung verwenden. Ist sie aktiv, erlaubt die FRITZ!Box **nur** diese Seiten und sperrt alles andere.
 
 ## Mitmachen
 
