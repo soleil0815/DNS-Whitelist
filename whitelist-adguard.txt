@@ -73,6 +73,8 @@
 ! === Microsoft ===
 @@||login.live.com^$important
 @@||login.microsoftonline.com^$important
+@@||clientconfig.passport.net^$important
+@@||go.microsoft.com^$important
 @@||officeclient.microsoft.com^$important
 @@||products.office.com^$important
 @@||outlook.office365.com^$important
@@ -96,6 +98,40 @@
 @@||dp-discovery-na-ext.amazon.com^$important
 @@||dcape-na.amazon.com^$important
 @@||api.amazonalexa.com^$important
+
+! === Smart-TVs ===
+@@||time.samsungcloudsolution.com^$important
+@@||time.samsungcloudsolution.net^$important
+@@||lcprd1.samsungcloudsolution.net^$important
+@@||samsungqbe.com^$important
+@@||mhc-ajax-eu.myhomescreen.tv^$important
+@@||mhc-xpana-eu.myhomescreen.tv^$important
+@@||mhc-xpana-eu-s2.myhomescreen.tv^$important
+@@||ngfts.lge.com^$important
+@@||vcs.vdspf.com^$important
+@@||applicast.ga.sony.net^$important
+@@||portal.store.sonyentertainmentnetwork.com^$important
+@@||deviceportal.nettvservices.com^$important
+@@||epg.corio.com^$important
+
+! === Spielkonsolen ===
+@@||v10.events.data.microsoft.com^$important
+@@||v20.events.data.microsoft.com^$important
+@@||xboxlive.com^$important
+@@||xbox.ipv6.microsoft.com^$important
+@@||ctldl.windowsupdate.com^$important
+@@||client-s.gateway.messenger.live.com^$important
+@@||arc.msn.com^$important
+@@||activity.windows.com^$important
+@@||telemetry-console.api.playstation.com^$important
+@@||ctest.cdn.nintendo.net^$important
+@@||conntest.nintendowifi.net^$important
+
+! === Streaming ===
+@@||secure.netflix.com^$important
+@@||api-global.netflix.com^$important
+@@||appboot.netflix.com^$important
+@@||api-tv.spotify.com^$important
 
 ! === Apple ===
 @@||captive.apple.com^$important

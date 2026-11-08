@@ -73,6 +73,8 @@ reminders-pa.googleapis.com
 # === Microsoft ===
 login.live.com
 login.microsoftonline.com
+clientconfig.passport.net
+go.microsoft.com
 officeclient.microsoft.com
 products.office.com
 outlook.office365.com
@@ -96,6 +98,40 @@ firetvcaptiveportal.com
 dp-discovery-na-ext.amazon.com
 dcape-na.amazon.com
 api.amazonalexa.com
+
+# === Smart-TVs ===
+time.samsungcloudsolution.com
+time.samsungcloudsolution.net
+lcprd1.samsungcloudsolution.net
+samsungqbe.com
+mhc-ajax-eu.myhomescreen.tv
+mhc-xpana-eu.myhomescreen.tv
+mhc-xpana-eu-s2.myhomescreen.tv
+ngfts.lge.com
+vcs.vdspf.com
+applicast.ga.sony.net
+portal.store.sonyentertainmentnetwork.com
+deviceportal.nettvservices.com
+epg.corio.com
+
+# === Spielkonsolen ===
+v10.events.data.microsoft.com
+v20.events.data.microsoft.com
+xboxlive.com
+xbox.ipv6.microsoft.com
+ctldl.windowsupdate.com
+client-s.gateway.messenger.live.com
+arc.msn.com
+activity.windows.com
+telemetry-console.api.playstation.com
+ctest.cdn.nintendo.net
+conntest.nintendowifi.net
+
+# === Streaming ===
+secure.netflix.com
+api-global.netflix.com
+appboot.netflix.com
+api-tv.spotify.com
 
 # === Apple ===
 captive.apple.com
