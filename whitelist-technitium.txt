@@ -1,61 +1,48 @@
-! =========================================================
-! Technitium DNS Whitelist (konvertiert)
-! =========================================================
+# =========================================================
+# Technitium DNS Whitelist (konvertiert)
+# =========================================================
 
+# === Tracking & Analytics ===
 analytics.amplitude.com
 statcounter.com
-www.statcounter.com
-gs.statcounter.com
 
+# === E-Mail & Kommunikation ===
 e.customeriomail.com
-links.e.theatlantic.com
 email.elitedangerous.com
 email.awscloud.com
-email.procook.co.uk
 t.communication.github.com
 login.sendpulse.com
 
+# === Mobile Apps ===
 app.appsflyer.com
 click.appcast.io
 app.adjust.com
-app-cdn.minepi.com
-redirect.appmetrica.yandex.com
 
-media-consumer365.desigual.com
-promo.gramedia.com
-go.scorptec.com.au
+# === Online-Shops ===
 envato.market
-goto.target.com
-goto.walmart.com
 
-tms.capitalone.com
-ads.tdbank.com
-
+# === Empfehlungen ===
 api.personaclick.com
 recommender.scarabresearch.com
-torimochi.line-apps.com
 evergage.com
 brm-core.brsrvr.com
 trbo.com
 
-cdn.rozetka.com.ua
-cdn.duurzaam.greenchoice.nl
+# === CDNs ===
 cloud.notification-naviextras.com
 c.office.com
 js.monitor.azure.com
 my.tealiumiq.com
 
+# === Werbung ===
 awin1.com
-redir.tradedoubler.com
 tradedoubler.com
-hb.afl.rakuten.co.jp
-pt.afl.rakuten.co.jp
 pagead.l.doubleclick.net
 www.googleadservices.com
 googleadapis.l.google.com
 adservice.google.com
-windows-pro.net
 
+# === Google ===
 clients1.google.com
 clients2.google.com
 clients3.google.com
@@ -83,6 +70,7 @@ gvt3.com
 redirector.gvt1.com
 reminders-pa.googleapis.com
 
+# === Microsoft ===
 login.live.com
 login.microsoftonline.com
 officeclient.microsoft.com
@@ -95,14 +83,13 @@ geo-prod.do.dsp.mp.microsoft.com
 tlu.dl.delivery.mp.microsoft.com
 msedge.api.cdp.microsoft.com
 msftncsi.com
-www.msftncsi.com
-ipv6.msftncsi.com
 c.s-microsoft.com
 i.s-microsoft.com
 self.events.data.microsoft.com
 vlscppe.microsoft.com
 h-microsoft.online-metrix.net
 
+# === Sonstiges ===
 aax-events-cell02-cf.eu-central.3px.axp.amazon-adsystem.com
 aax-events-pdns-wt.eu-west.3px.axp.amazon-adsystem.com
 aax-eu.amazon-adsystem.com
@@ -132,10 +119,8 @@ www.redditmedia.com
 www.redditstatic.com
 api-launcher-eu.hismarttv.com
 auth-launcher-eu.hismarttv.com
-api.twitter.com
-mobile.twitter.com
 twitter.com
-upload.twitter.com
+x.com
 api2.branch.io
 app-measurement.com
 cloudsync-prod.s3.amazonaws.com
@@ -145,12 +130,9 @@ firebaseinstallations.googleapis.com
 g.live.com
 gfwsl.geforce.com
 makeforms.io
-pagead2.googlesyndication.com
-r3.o.lencr.org
-rr5---sn-8xgn5uxa-cxge.gvt1.com
 s.youtube.com
 vendor-list.consensu.org
 wa.me
-www.wa.me
+windows-pro.net
 tags.vodafone.de
 teams.events.data.microsoft.com

@@ -5,15 +5,11 @@
 ! === Tracking & Analytics ===
 @@||analytics.amplitude.com^
 @@||statcounter.com^
-@@||www.statcounter.com^
-@@||gs.statcounter.com^
 
 ! === E-Mail & Kommunikation ===
 @@||e.customeriomail.com^
-@@||links.e.theatlantic.com^
 @@||email.elitedangerous.com^
 @@||email.awscloud.com^
-@@||email.procook.co.uk^
 @@||t.communication.github.com^
 @@||login.sendpulse.com^
 
@@ -21,32 +17,18 @@
 @@||app.appsflyer.com^
 @@||click.appcast.io^
 @@||app.adjust.com^
-@@||app-cdn.minepi.com^
-@@||redirect.appmetrica.yandex.com^
 
 ! === Online-Shops ===
-@@||media-consumer365.desigual.com^
-@@||promo.gramedia.com^
-@@||go.scorptec.com.au^
 @@||envato.market^
-@@||goto.target.com^
-@@||goto.walmart.com^
-
-! === Banking ===
-@@||tms.capitalone.com^
-@@||ads.tdbank.com^
 
 ! === Empfehlungen ===
 @@||api.personaclick.com^
 @@||recommender.scarabresearch.com^
-@@||torimochi.line-apps.com^
 @@||evergage.com^
 @@||brm-core.brsrvr.com^
 @@||trbo.com^
 
 ! === CDNs ===
-@@||cdn.rozetka.com.ua^
-@@||cdn.duurzaam.greenchoice.nl^
 @@||cloud.notification-naviextras.com^
 @@||c.office.com^
 @@||js.monitor.azure.com^
@@ -54,15 +36,11 @@
 
 ! === Werbung ===
 @@||awin1.com^
-@@||redir.tradedoubler.com^
 @@||tradedoubler.com^
-@@||hb.afl.rakuten.co.jp^
-@@||pt.afl.rakuten.co.jp^
 @@||pagead.l.doubleclick.net^
 @@||www.googleadservices.com^
 @@||googleadapis.l.google.com^
 @@||adservice.google.com^
-@@||windows-pro.net^$important
 
 ! === Google ===
 @@||clients1.google.com^
@@ -105,8 +83,6 @@
 @@||tlu.dl.delivery.mp.microsoft.com^$important
 @@||msedge.api.cdp.microsoft.com^$important
 @@||msftncsi.com^$important
-@@||www.msftncsi.com^$important
-@@||ipv6.msftncsi.com^$important
 @@||c.s-microsoft.com^$important
 @@||i.s-microsoft.com^$important
 @@||self.events.data.microsoft.com^$important
@@ -143,10 +119,8 @@
 @@||www.redditstatic.com^$important
 @@||api-launcher-eu.hismarttv.com^$important
 @@||auth-launcher-eu.hismarttv.com^$important
-@@||api.twitter.com^$important
-@@||mobile.twitter.com^$important
 @@||twitter.com^$important
-@@||upload.twitter.com^$important
+@@||x.com^$important
 @@||api2.branch.io^$important
 @@||app-measurement.com^$important
 @@||cloudsync-prod.s3.amazonaws.com^$important
@@ -156,12 +130,9 @@
 @@||g.live.com^$important
 @@||gfwsl.geforce.com^$important
 @@||makeforms.io^$important
-@@||pagead2.googlesyndication.com^$important
-@@||r3.o.lencr.org^$important
-@@||rr5---sn-8xgn5uxa-cxge.gvt1.com^$important
 @@||s.youtube.com^$important
 @@||vendor-list.consensu.org^$important
 @@||wa.me^$important
-@@||www.wa.me^$important
+@@||windows-pro.net^$important
 @@||tags.vodafone.de^$important
-@@||teams.events.data.microsoft.com^important
+@@||teams.events.data.microsoft.com^$important
