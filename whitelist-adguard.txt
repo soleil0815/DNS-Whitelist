@@ -12,14 +12,32 @@
 @@||email.awscloud.com^
 @@||t.communication.github.com^
 @@||login.sendpulse.com^
+@@||ct.sendgrid.net^$important
+@@||list-manage.com^$important
+@@||hubspotlinks.com^$important
+@@||t.1und1.de^$important
+@@||t.ionos.de^$important
 
 ! === Mobile Apps ===
 @@||app.appsflyer.com^
 @@||click.appcast.io^
 @@||app.adjust.com^
 
-! === Online-Shops ===
+! === Online-Shops & Preisvergleich ===
 @@||envato.market^
+@@||aax-eu.amazon-adsystem.com^$important
+@@||aax-eu.amazon.de^$important
+@@||aax-eu.amazon.com^$important
+@@||aax-eu-retail-direct.amazon-adsystem.com^$important
+@@||axp.amazon-adsystem.com^$important
+@@||rover.ebay.com^$important
+@@||d.agkn.com^$important
+@@||admarkt.kleinanzeigen.de^$important
+@@||click.alternate.de^$important
+@@||guenstiger.de^$important
+@@||count.shopping.t-online.de^$important
+@@||r.audible.de^$important
+@@||promo.mobile.de^$important
 
 ! === Empfehlungen ===
 @@||api.personaclick.com^
@@ -34,13 +52,18 @@
 @@||js.monitor.azure.com^
 @@||my.tealiumiq.com^
 
-! === Werbung ===
+! === Werbung & Partnerlinks ===
 @@||awin1.com^
 @@||tradedoubler.com^
 @@||pagead.l.doubleclick.net^
 @@||www.googleadservices.com^
 @@||googleadapis.l.google.com^
 @@||adservice.google.com^
+@@||ad.doubleclick.net^$important
+@@||clickserve.dartsearch.net^$important
+@@||t.adcell.com^$important
+@@||partners.webmasterplan.com^$important
+@@||mydealz.digidip.net^$important
 
 ! === Google ===
 @@||clients1.google.com^
@@ -128,24 +151,23 @@
 @@||conntest.nintendowifi.net^$important
 
 ! === Streaming ===
+@@||service.minerva.devices.a2z.com^$important
+@@||global.telemetry.insights.video.a2z.com^$important
 @@||secure.netflix.com^$important
 @@||api-global.netflix.com^$important
 @@||appboot.netflix.com^$important
 @@||api-tv.spotify.com^$important
 
+! === Bezahlen & Banking ===
+@@||click.klarna.de^$important
+@@||l.klarna.com^$important
+@@||click-tracking.klarna.net^$important
+@@||oc.sparkasse.de^$important
+
 ! === Apple ===
 @@||captive.apple.com^$important
 
 ! === Sonstiges ===
-@@||aax-events-cell02-cf.eu-central.3px.axp.amazon-adsystem.com^$important
-@@||aax-events-pdns-wt.eu-west.3px.axp.amazon-adsystem.com^$important
-@@||aax-eu.amazon-adsystem.com^$important
-@@||aax-eu.amazon.de^$important
-@@||aes.eu-west.ono.axp.amazon-adsystem.com^
-@@||aax-events-dedicated.eu-west.ono.axp.amazon-adsystem.com^
-@@||aax-events-cell01-cf.eu-west.ono.axp.amazon-adsystem.com^
-@@||global.telemetry.insights.video.a2z.com^$important
-@@||service.minerva.devices.a2z.com^$important
 @@||cp.gutefrage.net^$important
 @@||gutefrage.h5v.eu^$important
 @@||loader.gutefrage.net^$important
