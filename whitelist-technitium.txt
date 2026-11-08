@@ -12,14 +12,32 @@ email.elitedangerous.com
 email.awscloud.com
 t.communication.github.com
 login.sendpulse.com
+ct.sendgrid.net
+list-manage.com
+hubspotlinks.com
+t.1und1.de
+t.ionos.de
 
 # === Mobile Apps ===
 app.appsflyer.com
 click.appcast.io
 app.adjust.com
 
-# === Online-Shops ===
+# === Online-Shops & Preisvergleich ===
 envato.market
+aax-eu.amazon-adsystem.com
+aax-eu.amazon.de
+aax-eu.amazon.com
+aax-eu-retail-direct.amazon-adsystem.com
+axp.amazon-adsystem.com
+rover.ebay.com
+d.agkn.com
+admarkt.kleinanzeigen.de
+click.alternate.de
+guenstiger.de
+count.shopping.t-online.de
+r.audible.de
+promo.mobile.de
 
 # === Empfehlungen ===
 api.personaclick.com
@@ -34,13 +52,18 @@ c.office.com
 js.monitor.azure.com
 my.tealiumiq.com
 
-# === Werbung ===
+# === Werbung & Partnerlinks ===
 awin1.com
 tradedoubler.com
 pagead.l.doubleclick.net
 www.googleadservices.com
 googleadapis.l.google.com
 adservice.google.com
+ad.doubleclick.net
+clickserve.dartsearch.net
+t.adcell.com
+partners.webmasterplan.com
+mydealz.digidip.net
 
 # === Google ===
 clients1.google.com
@@ -128,24 +151,23 @@ ctest.cdn.nintendo.net
 conntest.nintendowifi.net
 
 # === Streaming ===
+service.minerva.devices.a2z.com
+global.telemetry.insights.video.a2z.com
 secure.netflix.com
 api-global.netflix.com
 appboot.netflix.com
 api-tv.spotify.com
 
+# === Bezahlen & Banking ===
+click.klarna.de
+l.klarna.com
+click-tracking.klarna.net
+oc.sparkasse.de
+
 # === Apple ===
 captive.apple.com
 
 # === Sonstiges ===
-aax-events-cell02-cf.eu-central.3px.axp.amazon-adsystem.com
-aax-events-pdns-wt.eu-west.3px.axp.amazon-adsystem.com
-aax-eu.amazon-adsystem.com
-aax-eu.amazon.de
-aes.eu-west.ono.axp.amazon-adsystem.com
-aax-events-dedicated.eu-west.ono.axp.amazon-adsystem.com
-aax-events-cell01-cf.eu-west.ono.axp.amazon-adsystem.com
-global.telemetry.insights.video.a2z.com
-service.minerva.devices.a2z.com
 cp.gutefrage.net
 gutefrage.h5v.eu
 loader.gutefrage.net
