@@ -121,6 +121,10 @@ firetvcaptiveportal.com
 dp-discovery-na-ext.amazon.com
 dcape-na.amazon.com
 api.amazonalexa.com
+softwareupdates.amazon.com
+updates.amazon.com
+amzdigitaldownloads.edgesuite.net
+amzdigital-a.akamaihd.net
 
 # === Smart-TVs ===
 time.samsungcloudsolution.com
@@ -132,6 +136,10 @@ mhc-ajax-eu.myhomescreen.tv
 mhc-xpana-eu.myhomescreen.tv
 mhc-xpana-eu-s2.myhomescreen.tv
 ngfts.lge.com
+snu.lge.com
+su.lge.com
+su-ssl.lge.com
+nsu.lge.com
 vcs.vdspf.com
 applicast.ga.sony.net
 portal.store.sonyentertainmentnetwork.com
@@ -167,6 +175,7 @@ oc.sparkasse.de
 
 # === Apple ===
 captive.apple.com
+xp.apple.com
 
 # === Sonstiges ===
 cp.gutefrage.net
@@ -189,6 +198,7 @@ www.redditmedia.com
 www.redditstatic.com
 api-launcher-eu.hismarttv.com
 auth-launcher-eu.hismarttv.com
+api.euro.hismarttv.com
 twitter.com
 x.com
 api2.branch.io

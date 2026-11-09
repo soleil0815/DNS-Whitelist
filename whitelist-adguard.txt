@@ -121,6 +121,10 @@
 @@||dp-discovery-na-ext.amazon.com^$important
 @@||dcape-na.amazon.com^$important
 @@||api.amazonalexa.com^$important
+@@||softwareupdates.amazon.com^$important
+@@||updates.amazon.com^$important
+@@||amzdigitaldownloads.edgesuite.net^$important
+@@||amzdigital-a.akamaihd.net^$important
 
 ! === Smart-TVs ===
 @@||time.samsungcloudsolution.com^$important
@@ -132,6 +136,10 @@
 @@||mhc-xpana-eu.myhomescreen.tv^$important
 @@||mhc-xpana-eu-s2.myhomescreen.tv^$important
 @@||ngfts.lge.com^$important
+@@||snu.lge.com^$important
+@@||su.lge.com^$important
+@@||su-ssl.lge.com^$important
+@@||nsu.lge.com^$important
 @@||vcs.vdspf.com^$important
 @@||applicast.ga.sony.net^$important
 @@||portal.store.sonyentertainmentnetwork.com^$important
@@ -167,6 +175,7 @@
 
 ! === Apple ===
 @@||captive.apple.com^$important
+@@||xp.apple.com^$important
 
 ! === Sonstiges ===
 @@||cp.gutefrage.net^$important
@@ -189,6 +198,7 @@
 @@||www.redditstatic.com^$important
 @@||api-launcher-eu.hismarttv.com^$important
 @@||auth-launcher-eu.hismarttv.com^$important
+@@||api.euro.hismarttv.com^$important
 @@||twitter.com^$important
 @@||x.com^$important
 @@||api2.branch.io^$important
