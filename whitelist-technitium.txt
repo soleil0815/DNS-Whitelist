@@ -127,6 +127,7 @@ time.samsungcloudsolution.com
 time.samsungcloudsolution.net
 lcprd1.samsungcloudsolution.net
 samsungqbe.com
+samsungotn.net
 mhc-ajax-eu.myhomescreen.tv
 mhc-xpana-eu.myhomescreen.tv
 mhc-xpana-eu-s2.myhomescreen.tv

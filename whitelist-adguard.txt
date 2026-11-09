@@ -127,6 +127,7 @@
 @@||time.samsungcloudsolution.net^$important
 @@||lcprd1.samsungcloudsolution.net^$important
 @@||samsungqbe.com^$important
+@@||samsungotn.net^$important
 @@||mhc-ajax-eu.myhomescreen.tv^$important
 @@||mhc-xpana-eu.myhomescreen.tv^$important
 @@||mhc-xpana-eu-s2.myhomescreen.tv^$important
